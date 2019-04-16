@@ -1,0 +1,124 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/lined_paper.png");
+}
+.titleJumbotron {
+    margin: 0px;
+    background: url("../images/coffee_image.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headerDivJumbotron {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: url("../images/lined_paper.png");
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+#headerJumbotron {
+    font-family: 'Special Elite', cursive;
+    font-size: 50px;
+    border-bottom: 2px solid black;
+    
+}
+
+#subheaderJumbotron {
+    background: url("../images/lined_paper.png");
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px
+}
+
+#navbar {
+    background-image: url("../images/chalkboard.jpg");
+	padding: 10px 30px 10px 30px;
+	font-family: 'Special Elite', cursive;
+	overflow: hidden;
+}
+
+.navLink {
+    color: white;
+    margin-right: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(../images/chalkboard.jpg);
+    z-index: 2;
+}
+
+.card-header {
+    background-image: url(../images/chalkboard.jpg);
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    border: 2px solid black;
+}
+
+.headlineLink {
+    text-decoration: none;
+    color: white
+}
+
+.headlineLink:hover {
+    text-decoration: none;
+    color: blue
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.articleImage {
+    width: 100%
+}
+
+.buttonColumn {
+    margin-right: 0px
+}
+
+.saveArticleButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Special Elite', cursive;
+}
+
+.modal-header {
+    background-image: url(../images/chalkboard.jpg);
+    color: white;
+    font-family: 'Special Elite', cursive;
+}
+
+.buttonRow {
+    margin-top: 10px
+}
+
+#titleinput,
+#bodyinput {
+    width: 100%
+}
+
+.articleContainer {
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+
+.noteCard {
+    display: block;
+    width: 100%
+}
+
+.noteCardBody {
+    color: black
+}
